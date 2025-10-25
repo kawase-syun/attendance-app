@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wmm wmver="11.1.0">
+  <Frames>
+    <Model Sample="Winmostar" PDB="False">
+      <Atoms>
+        <Atom ID="1" ParameterIndex="6">
+          <Position x="0.0000000000000000E+000" y="0.0000000000000000E+000" z="0.0000000000000000E+000"/>
+        </Atom>
+        <Atom ID="2" ParameterIndex="1">
+          <Position x="1.1000000000000001E+000" y="0.0000000000000000E+000" z="0.0000000000000000E+000"/>
+        </Atom>
+        <Atom ID="3" ParameterIndex="1">
+          <Position x="-3.5812496990287235E-001" y="1.0400704331592485E+000" z="0.0000000000000000E+000"/>
+        </Atom>
+        <Atom ID="4" ParameterIndex="1">
+          <Position x="-3.5812496990287235E-001" y="-5.2003521657962426E-001" z="-9.0072741684099433E-001"/>
+        </Atom>
+        <Atom ID="5" ParameterIndex="1">
+          <Position x="-3.5812496990287235E-001" y="-5.2003521657962426E-001" z="9.0072741684099433E-001"/>
+        </Atom>
+      </Atoms>
+      <Bonds>
+        <Bond Atom1="1" Atom2="2" Type="Single" PBC_X="0" PBC_Y="0" PBC_Z="0"/>
+        <Bond Atom1="1" Atom2="3" Type="Single" PBC_X="0" PBC_Y="0" PBC_Z="0"/>
+        <Bond Atom1="1" Atom2="4" Type="Single" PBC_X="0" PBC_Y="0" PBC_Z="0"/>
+        <Bond Atom1="1" Atom2="5" Type="Single" PBC_X="0" PBC_Y="0" PBC_Z="0"/>
+      </Bonds>
+      <Cell>
+        <Origin x="-1.2895602398782717E+001" y="-1.2900727416840994E+001" z="-1.2900727416840994E+001"/>
+        <BoxVectors>
+          <BoxVector1 x="2.5801454833681987E+001" y="0.0000000000000000E+000" z="0.0000000000000000E+000" BoundaryCondition="Periodic"/>
+          <BoxVector2 x="0.0000000000000000E+000" y="2.5801454833681987E+001" z="0.0000000000000000E+000" BoundaryCondition="Periodic"/>
+          <BoxVector3 x="0.0000000000000000E+000" y="0.0000000000000000E+000" z="2.5801454833681987E+001" BoundaryCondition="Periodic"/>
+        </BoxVectors>
+      </Cell>
+      <MDFF FF="Dreiding" Units="" PotFile="" AtomStyle="" PairStyle="">
+        <Coor>Created&#x20;by&#x20;Winmostar&#x20;V11.1.0&#x0A;&#x0D;5&#x0A;&#x0D;&#x20;&#x20;&#x20;&#x20;1MOL01&#x20;&#x20;&#x20;C1&#x20;&#x20;&#x20;&#x20;1&#x20;&#x20;&#x20;1.290&#x20;&#x20;&#x20;1.290&#x20;&#x20;&#x20;1.290&#x0A;&#x0D;&#x20;&#x20;&#x20;&#x20;1MOL01&#x20;&#x20;&#x20;H1&#x20;&#x20;&#x20;&#x20;2&#x20;&#x20;&#x20;1.400&#x20;&#x20;&#x20;1.290&#x20;&#x20;&#x20;1.290&#x0A;&#x0D;&#x20;&#x20;&#x20;&#x20;1MOL01&#x20;&#x20;&#x20;H2&#x20;&#x20;&#x20;&#x20;3&#x20;&#x20;&#x20;1.254&#x20;&#x20;&#x20;1.394&#x20;&#x20;&#x20;1.290&#x0A;&#x0D;&#x20;&#x20;&#x20;&#x20;1MOL01&#x20;&#x20;&#x20;H3&#x20;&#x20;&#x20;&#x20;4&#x20;&#x20;&#x20;1.254&#x20;&#x20;&#x20;1.238&#x20;&#x20;&#x20;1.200&#x0A;&#x0D;&#x20;&#x20;&#x20;&#x20;1MOL01&#x20;&#x20;&#x20;H4&#x20;&#x20;&#x20;&#x20;5&#x20;&#x20;&#x20;1.254&#x20;&#x20;&#x20;1.238&#x20;&#x20;&#x20;1.380&#x0A;&#x0D;2.58015&#x20;2.58015&#x20;2.58015&#x0A;&#x0D;</Coor>
+        <Top>;&#x20;Force&#x20;field&#x20;selected&#x20;on&#x20;Winmostar&#x20;:&#x20;Dreiding&#x0A;&#x0D;;&#x20;generated&#x20;by&#x20;Winmostar&#x20;V11.1.0&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;defaults&#x20;]&#x0A;&#x0D;1&#x20;2&#x20;yes&#x20;1&#x20;1&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;atomtypes&#x20;]&#x0A;&#x0D;;name&#x20;&#x20;&#x20;at.num&#x20;&#x20;&#x20;&#x20;&#x20;mass&#x20;&#x20;&#x20;&#x20;&#x20;charge&#x20;&#x20;&#x20;ptype&#x20;&#x20;&#x20;sigma&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;epsilon&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;Amb&#x0A;&#x0D;C_3_01&#x20;6&#x20;0.0&#x20;0.0&#x20;A&#x20;0.347299047292648&#x20;0.397898400000000&#x0A;&#x0D;H__01&#x20;1&#x20;0.0&#x20;0.0&#x20;A&#x20;0.284642140445838&#x20;0.063596800000000&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;bondtypes&#x20;]&#x0A;&#x0D;;&#x20;i&#x20;j&#x20;func&#x20;b0&#x20;kb&#x0A;&#x0D;C_3_01&#x20;H__01&#x20;1&#x20;1.090000000000000e-001&#x20;2.928800000000000e+005&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;angletypes&#x20;]&#x0A;&#x0D;;&#x20;i&#x20;j&#x20;k&#x20;func&#x20;th0&#x20;cth&#x0A;&#x0D;C_3_01&#x20;C_3_01&#x20;C_3_01&#x20;1&#x20;1.094710000000000e+002&#x20;4.184000000000000e+002&#x0A;&#x0D;H__01&#x20;C_3_01&#x20;C_3_01&#x20;1&#x20;1.094710000000000e+002&#x20;4.184000000000000e+002&#x0A;&#x0D;H__01&#x20;C_3_01&#x20;H__01&#x20;1&#x20;1.094710000000000e+002&#x20;4.184000000000000e+002&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;dihedraltypes&#x20;]&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;moleculetype&#x20;]&#x0A;&#x0D;;name&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;nrexcl&#x0A;&#x0D;MOL01&#x20;3&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;atoms&#x20;]&#x0A;&#x0D;;&#x20;&#x20;&#x20;nr&#x20;&#x20;type&#x20;&#x20;resi&#x20;&#x20;res&#x20;&#x20;atom&#x20;&#x20;cgnr&#x20;&#x20;&#x20;&#x20;&#x20;charge&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;mass&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;;&#x20;qtot&#x20;&#x20;&#x20;bond_type&#x0A;&#x0D;1&#x20;C_3_01&#x20;1&#x20;MOL01&#x20;C1&#x20;1&#x20;-0.106800000000000&#x20;12.010999999999999&#x0A;&#x0D;2&#x20;H__01&#x20;1&#x20;MOL01&#x20;H1&#x20;2&#x20;0.026700000000000&#x20;1.008000000000000&#x0A;&#x0D;3&#x20;H__01&#x20;1&#x20;MOL01&#x20;H2&#x20;3&#x20;0.026700000000000&#x20;1.008000000000000&#x0A;&#x0D;4&#x20;H__01&#x20;1&#x20;MOL01&#x20;H3&#x20;4&#x20;0.026700000000000&#x20;1.008000000000000&#x0A;&#x0D;5&#x20;H__01&#x20;1&#x20;MOL01&#x20;H4&#x20;5&#x20;0.026700000000000&#x20;1.008000000000000&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;bonds&#x20;]&#x0A;&#x0D;;&#x20;&#x20;&#x20;ai&#x20;&#x20;&#x20;&#x20;&#x20;aj&#x20;funct&#x20;&#x20;&#x20;r&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;k&#x0A;&#x0D;1&#x20;2&#x20;1&#x0A;&#x0D;1&#x20;3&#x20;1&#x0A;&#x0D;1&#x20;4&#x20;1&#x0A;&#x0D;1&#x20;5&#x20;1&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;angles&#x20;]&#x0A;&#x0D;;&#x20;&#x20;&#x20;ai&#x20;&#x20;&#x20;&#x20;&#x20;aj&#x20;&#x20;&#x20;&#x20;&#x20;ak&#x20;&#x20;&#x20;&#x20;funct&#x20;&#x20;&#x20;theta&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;cth&#x0A;&#x0D;2&#x20;1&#x20;3&#x20;1&#x0A;&#x0D;2&#x20;1&#x20;4&#x20;1&#x0A;&#x0D;2&#x20;1&#x20;5&#x20;1&#x0A;&#x0D;3&#x20;1&#x20;4&#x20;1&#x0A;&#x0D;3&#x20;1&#x20;5&#x20;1&#x0A;&#x0D;4&#x20;1&#x20;5&#x20;1&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;system&#x20;]&#x0A;&#x0D;generated&#x20;by&#x20;Winmostar&#x20;V11.1.0&#x0A;&#x0D;&#x0A;&#x0D;[&#x20;molecules&#x20;]&#x0A;&#x0D;MOL01&#x20;1&#x0A;&#x0D;</Top>
+      </MDFF>
+      <Charges>
+        <User>
+          <Atom ID="1">-1.0680000000000001E-001</Atom>
+          <Atom ID="2">2.6700000000000002E-002</Atom>
+          <Atom ID="3">2.6700000000000002E-002</Atom>
+          <Atom ID="4">2.6700000000000002E-002</Atom>
+          <Atom ID="5">2.6700000000000002E-002</Atom>
+        </User>
+      </Charges>
+      <ZMatrix>
+        <Atom ID="1" Distance="0.0000000000000000E+000" Angle="0.0000000000000000E+000" Dihedral="0.0000000000000000E+000" NA="-1" NB="-1" NC="-1" OptimizeFlag1="1" OptimizeFlag2="1" OptimizeFlag3="1"/>
+        <Atom ID="2" Distance="1.1000000000000001E+000" Angle="0.0000000000000000E+000" Dihedral="0.0000000000000000E+000" NA="0" NB="-1" NC="-1" OptimizeFlag1="1" OptimizeFlag2="1" OptimizeFlag3="1"/>
+        <Atom ID="3" Distance="1.1000000000000001E+000" Angle="1.0900000000000000E+002" Dihedral="0.0000000000000000E+000" NA="0" NB="1" NC="-1" OptimizeFlag1="1" OptimizeFlag2="1" OptimizeFlag3="1"/>
+        <Atom ID="4" Distance="1.1000000000000001E+000" Angle="1.0900000000000000E+002" Dihedral="1.2000000000000000E+002" NA="0" NB="1" NC="2" OptimizeFlag1="1" OptimizeFlag2="1" OptimizeFlag3="1"/>
+        <Atom ID="5" Distance="1.1000000000000001E+000" Angle="1.0900000000000000E+002" Dihedral="-1.2000000000000000E+002" NA="0" NB="1" NC="2" OptimizeFlag1="1" OptimizeFlag2="1" OptimizeFlag3="1"/>
+      </ZMatrix>
+      <Keywords1>[Gromacs&#x20;keywords&#x20;have&#x20;been&#x20;set]&#x0A;&#x0D;</Keywords1>
+    </Model>
+  </Frames>
+</wmm>

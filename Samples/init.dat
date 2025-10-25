@@ -1,0 +1,6 @@
+AM1 EF PRECISE GNORM=0.05 NOINTER GRAPHF VECTORS MMOK
+
+Winmostar
+C  0.         1 0.         1 0.         1     0     0     0
+H  1.1        1 0.         1 0.         1     1     0     0
+
